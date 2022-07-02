@@ -48,5 +48,6 @@ func chanRoutineChannel() {
 		done <- 1
 	}()
 	<-done
+
 	log.Print("hello 2")
 }
