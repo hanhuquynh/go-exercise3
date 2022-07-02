@@ -19,8 +19,8 @@ func chanRoutine() {
 		log.Print("hello 3")
 		wg.Done()
 	}()
-	log.Print("hello 2")
 	wg.Wait()
+	log.Print("hello 2")
 }
 
 func chanRoutineMuTex() {
