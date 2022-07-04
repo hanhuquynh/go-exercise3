@@ -15,4 +15,8 @@ func main() {
 
 	fmt.Println("Channel")
 	chanRoutineChannel()
+
+	fmt.Println("--------------------")
+
+	b4()
 }
